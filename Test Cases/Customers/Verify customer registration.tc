@@ -5,4 +5,60 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>82f9fc23-500e-412f-bd62-92c2ba544762</testCaseGuid>
+   <variable>
+      <defaultValue>'john'</defaultValue>
+      <description></description>
+      <id>9497df29-92a9-46c7-b2be-d39bd9dd745e</id>
+      <masked>false</masked>
+      <name>surname</name>
+   </variable>
+   <variable>
+      <defaultValue>'peter'</defaultValue>
+      <description></description>
+      <id>27149654-ec25-4179-b291-4071c9cddd34</id>
+      <masked>false</masked>
+      <name>otherNames</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000-05-19'</defaultValue>
+      <description></description>
+      <id>280e93a9-4358-4198-8a71-ad88a8d36ea3</id>
+      <masked>false</masked>
+      <name>dateofBirth</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kenyan'</defaultValue>
+      <description></description>
+      <id>f60ef5cb-2abc-4a47-8f88-0d31e28f46e4</id>
+      <masked>false</masked>
+      <name>citizenship</name>
+   </variable>
+   <variable>
+      <defaultValue>'2345678'</defaultValue>
+      <description></description>
+      <id>daeb86b2-0a0a-4210-884c-9df69f8f422d</id>
+      <masked>false</masked>
+      <name>IDnumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Military ID'</defaultValue>
+      <description></description>
+      <id>660c313b-0b59-4444-b6ff-ada7005bf35a</id>
+      <masked>false</masked>
+      <name>IDtype</name>
+   </variable>
+   <variable>
+      <defaultValue>'Female'</defaultValue>
+      <description></description>
+      <id>ec4f29a9-626f-46f1-b597-1c48359ee1c8</id>
+      <masked>false</masked>
+      <name>gender</name>
+   </variable>
+   <variable>
+      <defaultValue>'Married'</defaultValue>
+      <description></description>
+      <id>2923e964-7632-436d-a82c-9ddf8f0dbc03</id>
+      <masked>false</masked>
+      <name>maritalStatus</name>
+   </variable>
 </TestCaseEntity>

@@ -22,19 +22,48 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Login/login'), [('Username') : 'pascal.kipkemoi@m-kopa.com', ('Password') : 'Gratuation-12'], 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUiBuiltInKeywords.delay(2)
+
 WebUI.mouseOver(findTestObject('Customers module/Customers Registration/Link-Customers'))
 
 WebUI.mouseOver(findTestObject('Customers module/Customers Registration/Link-Registration'))
 
 WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Link-New Registration'))
 
-WebUI.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Surname'), Surname)
+WebUI.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Surname'), surname)
 
-WebUI.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Other names'), Othernames)
-
+WebUI.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Other names'), otherNames)
 
 WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Citizenship'), 
-    Citizenship)
+    citizenship, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-ID Number'), 
+    IDnumber)
+
+WebUiBuiltInKeywords.delay(3)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Dropdown-ID Number Type'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-ID Number Type', 
+        [('IDtype') : IDtype]))
+
+WebUI.click(findTestObject('Customers module/Customers Registration/Personal Information/Checkbox-ID copy received'))
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Dropdown-Gender'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-Gender', 
+        [('gender') : gender]))
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Dropdown-Marital status'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-marital status', 
+        [('maritalstatus') : maritalStatus]))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0bf42eeb-6080-4bc2-9c42-fc6d7656e4d1</testCaseGuid>
+   <variable>
+      <defaultValue>'pascal.kipkemoi@m-kopa.com'</defaultValue>
+      <description></description>
+      <id>cfd642c1-eb29-4b82-ac53-6bde980d7d3f</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Gratuation-12'</defaultValue>
+      <description></description>
+      <id>43e61e12-8e9d-4f52-a0d3-abe43bb46f58</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

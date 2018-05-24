@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option-ID Number Type</name>
+   <name>Input-Mobile phone number</name>
    <tag></tag>
-   <elementGuidId>8d3b691a-56a3-4fb7-b2c9-382bf7bc0f28</elementGuidId>
+   <elementGuidId>e530e108-cc7e-4483-8ab5-fdd472a451ea</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>li[contains(.,'${IDtype}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${IDtype}')]</value>
+      <value>Input-Mobile phone number</value>
    </webElementProperties>
 </WebElementEntity>

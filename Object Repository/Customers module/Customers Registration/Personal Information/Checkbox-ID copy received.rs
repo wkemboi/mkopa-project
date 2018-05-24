@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option-ID Number Type</name>
+   <name>Checkbox-ID copy received</name>
    <tag></tag>
-   <elementGuidId>8d3b691a-56a3-4fb7-b2c9-382bf7bc0f28</elementGuidId>
+   <elementGuidId>bdd0ca15-5614-4ad8-895f-9e418eea5375</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>li[contains(.,'${IDtype}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${IDtype}')]</value>
+      <value>.//*[@id='Item1_IdentityCopyReceived']</value>
    </webElementProperties>
 </WebElementEntity>

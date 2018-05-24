@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option-ID Number Type</name>
+   <name>Dropdown-Marital status</name>
    <tag></tag>
-   <elementGuidId>8d3b691a-56a3-4fb7-b2c9-382bf7bc0f28</elementGuidId>
+   <elementGuidId>1be1dfc4-c1d3-4dad-ad45-04d06994d173</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>li[contains(.,'${IDtype}')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//li[contains(.,'${IDtype}')]</value>
+      <value>.//*[@id='divBodyMain']/form/div/fieldset[1]/table/tbody/tr[4]/td[4]/div/div/span[1]</value>
    </webElementProperties>
 </WebElementEntity>
