@@ -65,5 +65,24 @@ WebUiBuiltInKeywords.delay(2)
 WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-marital status', 
         [('maritalstatus') : maritalStatus]))
 
+WebUI.setText(findTestObject('Customers module/Customers Registration/Contact information/Input-Mobile phone number'), mobileNumber)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Contact information/Alternate phone number'), 
+    alternateNumber)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Contact information/Input-Payment phone number'), 
+    paymentNumber)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Customers module/Customers Registration/Contact information/Dropdown-Language'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Customers module/Customers Registration/Contact information/Option-Language', [('language') : language]), 
+    language)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Contact information/Input-Town'), town)
+
 WebUI.closeBrowser()
 

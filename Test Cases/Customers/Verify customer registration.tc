@@ -61,4 +61,39 @@
       <masked>false</masked>
       <name>maritalStatus</name>
    </variable>
+   <variable>
+      <defaultValue>'07000000000'</defaultValue>
+      <description></description>
+      <id>79384e9b-9496-43e8-a9ff-0f9b9451b06f</id>
+      <masked>false</masked>
+      <name>mobileNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'0719022099'</defaultValue>
+      <description></description>
+      <id>fd8a437b-687d-4ff3-a41b-3788ebbe10a2</id>
+      <masked>false</masked>
+      <name>alternateNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'0737898772'</defaultValue>
+      <description></description>
+      <id>df697a7f-6e60-459c-b15e-10b12b7c7e31</id>
+      <masked>false</masked>
+      <name>paymentNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kiswahili'</defaultValue>
+      <description></description>
+      <id>ae54d50a-1e45-4100-bc72-6e1c47b10dea</id>
+      <masked>false</masked>
+      <name>language</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nyeri'</defaultValue>
+      <description></description>
+      <id>a5e26a48-9e4e-4da9-a7c4-5a1767eb9912</id>
+      <masked>false</masked>
+      <name>town</name>
+   </variable>
 </TestCaseEntity>
