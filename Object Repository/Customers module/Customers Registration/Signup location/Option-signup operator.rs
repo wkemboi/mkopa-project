@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input-Mobile phone number</name>
+   <name>Option-signup operator</name>
    <tag></tag>
-   <elementGuidId>e530e108-cc7e-4483-8ab5-fdd472a451ea</elementGuidId>
+   <elementGuidId>db7158c2-1741-4d2b-8d39-43a559403883</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>Input-Mobile phone number</value>
+         <value>//*//ul/li[normalize-space()=&quot;${operator}&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[contains(@id,'mainphNo')]</value>
+      <value>//*//ul/li[normalize-space()=&quot;${operator}&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

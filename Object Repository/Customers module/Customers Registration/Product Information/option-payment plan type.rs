@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input-Mobile phone number</name>
+   <name>option-payment plan type</name>
    <tag></tag>
-   <elementGuidId>e530e108-cc7e-4483-8ab5-fdd472a451ea</elementGuidId>
+   <elementGuidId>1a6b2d1c-c74e-439d-ad2f-24ad2a416438</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>Input-Mobile phone number</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[contains(@id,'mainphNo')]</value>
+      <value>//*//ul/li[text()=&quot;${paymenttype}&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input-Mobile phone number</name>
+   <name>Input-comment</name>
    <tag></tag>
-   <elementGuidId>e530e108-cc7e-4483-8ab5-fdd472a451ea</elementGuidId>
+   <elementGuidId>99fae72d-f71f-46d1-93e0-00e293116ed7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>Input-Mobile phone number</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[contains(@id,'mainphNo')]</value>
+      <value>.//*[@id='Item2_RequestNotes']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -62,7 +62,7 @@
       <name>maritalStatus</name>
    </variable>
    <variable>
-      <defaultValue>'07000000000'</defaultValue>
+      <defaultValue>'0702456789'</defaultValue>
       <description></description>
       <id>79384e9b-9496-43e8-a9ff-0f9b9451b06f</id>
       <masked>false</masked>
@@ -83,6 +83,13 @@
       <name>paymentNumber</name>
    </variable>
    <variable>
+      <defaultValue>'Nyeri'</defaultValue>
+      <description></description>
+      <id>a5e26a48-9e4e-4da9-a7c4-5a1767eb9912</id>
+      <masked>false</masked>
+      <name>town</name>
+   </variable>
+   <variable>
       <defaultValue>'Kiswahili'</defaultValue>
       <description></description>
       <id>ae54d50a-1e45-4100-bc72-6e1c47b10dea</id>
@@ -90,10 +97,80 @@
       <name>language</name>
    </variable>
    <variable>
-      <defaultValue>'Nyeri'</defaultValue>
+      <defaultValue>'Obrai Communications  (K0267)'</defaultValue>
       <description></description>
-      <id>a5e26a48-9e4e-4da9-a7c4-5a1767eb9912</id>
+      <id>6d4b4fff-d30b-41ff-b891-6fe929893e14</id>
       <masked>false</masked>
-      <name>town</name>
+      <name>dealership</name>
+   </variable>
+   <variable>
+      <defaultValue>'Obrai Communications'</defaultValue>
+      <description></description>
+      <id>1a335aac-1646-4cfb-9c96-9366a3f5d2de</id>
+      <masked>false</masked>
+      <name>signupOutlet</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sms'</defaultValue>
+      <description></description>
+      <id>b04feeda-dfcc-49b7-ade6-df7802dfe627</id>
+      <masked>false</masked>
+      <name>salesChannel</name>
+   </variable>
+   <variable>
+      <defaultValue>'(Outlet Operator) Kulei Elijah'</defaultValue>
+      <description></description>
+      <id>fcab9c55-c7e3-4338-a13d-a403e334d48d</id>
+      <masked>false</masked>
+      <name>operator</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cash'</defaultValue>
+      <description></description>
+      <id>6c222086-0160-4764-9fea-ec5fe9c0d6f2</id>
+      <masked>false</masked>
+      <name>paymentType</name>
+   </variable>
+   <variable>
+      <defaultValue>'I DLR Cash v1  ( 14,599 Immediate Payment (MK3) )'</defaultValue>
+      <description></description>
+      <id>df515c45-88f9-4bf2-acdd-1749d6218823</id>
+      <masked>false</masked>
+      <name>paymentplan</name>
+   </variable>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>17f3b8c2-ae2a-43f0-8786-8aceac261aeb</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'cleared'</defaultValue>
+      <description></description>
+      <id>8d70029b-7d24-4e7d-8d6a-9007772a089a</id>
+      <masked>false</masked>
+      <name>excludeFromCRBReport</name>
+   </variable>
+   <variable>
+      <defaultValue>'dgfrty8678'</defaultValue>
+      <description></description>
+      <id>5efb5dae-24d1-4c26-a7de-7eff09c75c96</id>
+      <masked>false</masked>
+      <name>zukuDecoderSerial</name>
+   </variable>
+   <variable>
+      <defaultValue>'2690090987'</defaultValue>
+      <description></description>
+      <id>a033e18c-8482-48d9-ad09-687fd3b52224</id>
+      <masked>false</masked>
+      <name>zukuSmartCardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'Yes'</defaultValue>
+      <description></description>
+      <id>74c4ed04-26d9-42e4-ac43-bc00e6c30c79</id>
+      <masked>false</masked>
+      <name>dodetailsmatch</name>
    </variable>
 </TestCaseEntity>

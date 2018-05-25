@@ -34,6 +34,9 @@ WebUI.setText(findTestObject('Customers module/Customers Registration/Personal I
 
 WebUI.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Other names'), otherNames)
 
+not_run: WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Date of Birth'), 
+    dateofBirth)
+
 WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Personal Information/Input-Citizenship'), 
     citizenship, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -49,11 +52,13 @@ WebUiBuiltInKeywords.delay(2)
 WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-ID Number Type', 
         [('IDtype') : IDtype]))
 
+WebUiBuiltInKeywords.delay(2)
+
 WebUI.click(findTestObject('Customers module/Customers Registration/Personal Information/Checkbox-ID copy received'))
 
 WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Dropdown-Gender'))
 
-WebUiBuiltInKeywords.delay(2)
+WebUiBuiltInKeywords.delay(1)
 
 WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Personal Information/Option-Gender', 
         [('gender') : gender]))
@@ -79,10 +84,95 @@ WebUI.click(findTestObject('Customers module/Customers Registration/Contact info
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Customers module/Customers Registration/Contact information/Option-Language', [('language') : language]), 
-    language)
+WebUI.click(findTestObject('Customers module/Customers Registration/Contact information/Option-Language', [('language') : language]), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Contact information/Input-Town'), town)
 
-WebUI.closeBrowser()
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Signup location/Dropdown-dealership', 
+        [('dealership') : dealership]))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Signup location/Option-dealership', [
+            ('dealership') : dealership]))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Signup location/Dropdown-Signup outlet'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUI.click(findTestObject('Customers module/Customers Registration/Signup location/Option-signup outlet', [('outlet') : signupOutlet]))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Signup location/Dropdown-Signup operator'))
+
+WebUiBuiltInKeywords.delay(3)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Signup location/Option-signup operator', 
+        [('operator') : operator]))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Channel info/Dropdown-sales channel'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Channel info/Option-Sales channel', [
+            ('channel') : salesChannel]))
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Product Information/Dropdown-payment plan type'))
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Product Information/option-payment plan type', 
+        [('paymenttype') : paymentType]))
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Product Information/Dropdown-Payment plan'))
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Product Information/Option-Payment plan', 
+        [('paymentplan') : paymentplan]))
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Product Information/Input-comment'), 
+    comment)
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Custom Fields/Input-ExcludeFromCRBReport'), 
+    excludeFromCRBReport)
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Custom Fields/Input-ZukuDecoderSerial'), 
+    zukuDecoderSerial)
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.setText(findTestObject('Customers module/Customers Registration/Custom Fields/Input-ZukuSmartCardNumber'), 
+    zukuSmartCardNumber)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Save/Button-save'))
+
+WebUiBuiltInKeywords.delay(20)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Check identity for new registration/Dropdown-Do details match'))
+
+WebUiBuiltInKeywords.delay(2)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Check identity for new registration/Option-Do details match', 
+        [('dodetailsmatch') : dodetailsmatch]))
+
+WebUiBuiltInKeywords.delay(1)
+
+WebUiBuiltInKeywords.click(findTestObject('Customers module/Customers Registration/Check identity for new registration/Button-Complete identity check'))
+
+not_run: WebUI.closeBrowser()
 
